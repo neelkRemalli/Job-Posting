@@ -1,5 +1,6 @@
+
 import { auth } from '@/auth';
-import  prisma  from '@/lib/prisma';
+import prisma  from '@/lib/prisma';
 import { NextResponse } from 'next/server';
 
 export async function POST(
@@ -47,3 +48,8 @@ export async function POST(
     return new NextResponse('Internal server error', { status: 500 });
   }
 }
+
+
+
+
+
