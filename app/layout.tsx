@@ -4,7 +4,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import { auth } from '@/auth';
 
-import SessionProvider from "@/components/AuthProvider.tsx";
+import SessionProvider from "@/components/AuthProvider";
 
 
 
